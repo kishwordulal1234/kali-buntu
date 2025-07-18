@@ -33,11 +33,12 @@ wget https://github.com/yourusername/kali-buntu/raw/main/kali-buntu.sh
 
 # Step 2: Make executable
 chmod +x kali-buntu.sh
-
-# setep 3:
+# step 3:
+sudo apt-get install dos2unix
+# setep 4:
 dos2unix kali-buntu.sh
 
 you will see something like this dos2unix: converting file kali-buntu.sh to Unix format...
 
-# Step 3: Run it!
+# Step 5: Run it!
 ./kali-buntu.sh
